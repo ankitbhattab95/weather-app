@@ -1,0 +1,25 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 300px;
+  min-height: 200px;
+  border-radius: 15px; /* 5px rounded corners */
+  background-color: rgba(27, 189, 238, 0.979);
+  text-overflow: inherit;
+  margin: 10px;
+}
+.title{
+    border-top-left-radius : 15px; /* 5px rounded corners */
+    text-transform: uppercase;
+    border-top-right-radius : 15px; /* 5px rounded corners */
+    background-color: rgb(199, 241, 45);
+    min-height: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 20px ;
+    font-size: x-large;
+}
+
+.value{
+    padding-top: 20px ;
+    font-size: xx-large;
+}
