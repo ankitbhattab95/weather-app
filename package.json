@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installAll": "npm i && cd client/weather/ && npm i",
+    "build": "cd client/weather/ && npm run build",
+    "startNode": "node index.js",
+    "start": "npm run installAll && npm run build && npm run startNode"
   },
   "author": "Ankit Bhatt",
   "license": "ISC",
